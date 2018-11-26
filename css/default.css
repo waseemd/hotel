@@ -99,6 +99,7 @@ hr {
 #wrapper {
 	background: #FFF;
 	margin: 0px 20px;
+	height:80%;
 }
 
 .container {
@@ -110,18 +111,11 @@ hr {
 	clear: both;
 }
 
-/** HEADER */
-
-#header-wrapper
-{
-	background: url(images/bg.jpg) no-repeat top center;
-	background-size: cover;
-}
 
 #header {
 	position: relative;
 	overflow: hidden;
-	height: 20%;
+	height: 30%;
 }
 
 #social
@@ -177,6 +171,7 @@ hr {
 #menu {
 	overflow: hidden;
 	background: #3e86d8;
+	text-align: center;
 }
 
 #menu ul {
@@ -274,42 +269,21 @@ hr {
 	border-bottom: 1px solid #E6E7DC;
 }
 
-/** SIDEBAR 1 */
-
-#sidebar1 {
-	float: right;
-	width: 250px;
-	margin-right: 50px;
-}
-
-#sidebar1 #box1 {
-	margin-bottom: 4em;
-}
-
-#sidebar1 h2,
-#sidebar2 h2
-{
-	font-size: 1.5em;
-	font-weight: 400;
-}
-
-/** SIDEBAR 2 */
-
-#sidebar2 {
-	float: right;
-	width: 250px;
-}
 
 /* Footer */
 
 #footer {
 	overflow: hidden;
 	padding: 50px 0px 30px 0px;
+	height: 10%;
+	background:#333;
+	width:100%;
+	margin: 0 auto;
 }
 
 #footer p {
 	text-align: center;
-		color: rgba(0,0,0,0.7);
+	color: #fff;
 }
 
 #footer a {
@@ -418,77 +392,6 @@ ul.style3 .first {
 
 
 /*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-	#portfolio-wrapper
-	{
-		overflow: hidden;
-		padding: 5em 0em;
-		background: rgba(0,0,0,.02);
-		background-image: url(images/overlay.png);
-		background-repeat: repeat;
-		border-top: 1px solid rgba(0,0,0,.05);
-	}
-	
-	#portfolio
-	{
-	text-align: center;
-	}
-
-	#portfolio .box
-	{
-		color: rgba(0,0,0,0.5);
-	}
-	
-	#portfolio h3
-	{
-		display: block;
-		padding-bottom: 1em;
-		text-transform: uppercase;
-		font-size: 1.2em;
-		font-weight: 400;
-		color: rgba(0,0,0,0.7);
-	}
-
-	#portfolio .title
-	{
-	}
-
-	#portfolio .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-	#portfolio .title .byline
-	{
-		display: block;
-		padding-bottom: 2em;
-		color: rgba(0,0,0,0.7);
-	}
-
-	.column1,
-	.column2,
-	.column3,
-	.column4
-	{
-		width: 282px;
-	}
-	
-	.column1,
-	.column2,
-	.column3
-	{
-		float: left;
-		margin-right: 24px;
-	}
-	
-	.column4
-	{
-		float: right;
-	}
-
-/*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
@@ -534,44 +437,3 @@ ul.style3 .first {
 		color: #FFF;
 	}
 	
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
-
-	ul.contact
-	{
-		margin: 0;
-		padding: 2em 0em 0em 0em;
-		list-style: none;
-	}
-	
-	ul.contact li
-	{
-		display: inline-block;
-		padding: 0em 0.10em;
-		font-size: 1em;
-	}
-	
-	ul.contact li span
-	{
-		display: none;
-		margin: 0;
-		padding: 0;
-	}
-	
-	ul.contact li a
-	{
-	}
-	
-	ul.contact li a:before
-	{
-		display: inline-block;
-		background: none;
-		width: 40px;
-		height: 40px;
-		line-height: 40px;
-		text-align: center;
-		color: rgba(255,255,255,1);
-	}
-	
-
