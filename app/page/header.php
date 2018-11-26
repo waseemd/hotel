@@ -20,9 +20,9 @@ require '../functions/functions.php';
      </div>
      <div id="menu" class="container">
             <ul>
-                <li class="current_page_item"><a href="#" title="">Home</a></li>
-                <li><a href="#"  title="">View Rooms</a></li>
-                <li><a href="#"  title="">About Us</a></li>
-                <li><a href="#" title="">Contact Us</a></li>
+                <li class="current_page_item"><a href="/" title="">Home</a></li>
+                <li><a href="rooms.php"  title="">View Rooms</a></li>
+                <li><a href="booking.php"  title="">Make Booking</a></li>
+                <li><a href="aboutus.php" title="">About Us</a></li>
             </ul>
       </div>    
