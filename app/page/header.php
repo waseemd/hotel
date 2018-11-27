@@ -10,6 +10,7 @@ require '../functions/functions.php';
     <title>Hotel Booking</title>
    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
    <link rel="stylesheet" type="text/css" href="../../css/fonts.css" />
+   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
    </head>
 <body>
     <div id="wrapper">
@@ -20,7 +21,7 @@ require '../functions/functions.php';
      </div>
      <div id="menu" class="container">
             <ul>
-                <li class="current_page_item"><a href="/" title="">Home</a></li>
+                <li><a href="/" title="">Home</a></li>
                 <li><a href="rooms.php"  title="">View Rooms</a></li>
                 <li><a href="booking.php"  title="">Make Booking</a></li>
                 <li><a href="aboutus.php" title="">About Us</a></li>
