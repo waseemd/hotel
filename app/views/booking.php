@@ -2,10 +2,10 @@
 include '../page/header.php';
 ?>
 	<div id="page" class="container">
-		<form id="booking-form" class="booking-form" name="form1" method="post" action="">
+		<form id="booking-form" class="booking-form date-form" name="form1" method="post" action="">
             <div class="h1">Booking Form</div>
             <div id="form-message" class="message hide">
-                Thank you for your enquiry!
+                Thank you for your booking!
             </div>
             <div id="form-content">
                 <div class="group">
@@ -25,7 +25,7 @@ include '../page/header.php';
                 <div class="group">
                     <label for="room_type">Room Type</label>
                     <div>
-                        <select id="room_type" name="room_type" class="form-control">
+                        <select id="room_type" name="room_type" class="form-control" required>
                         	<option value="">Select Room Type</option>
 		                ?>
 		                <?php
@@ -39,12 +39,12 @@ include '../page/header.php';
                         </select>
                     </div>
                 </div>
-                <div class="group">
+                <div class="group hide" id="roomrow">
                     <label for="room">Room</label>
                     <div>
-                        <select id="room-type" name="room_id" class="form-control" disabled required>
+                        <select id="room" name="room" class="form-control" required>
                             <option value="">Select Room Type</option>
-                            </select>
+                         </select>
                     </div>
                 </div>
                 <div class="group">
